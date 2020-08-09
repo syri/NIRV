@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Discord Game SDK",
+	"Description": "UE4 plugin wrapper for the Discord Game SDK.",
+	"Category": "Messaging",
+	"CreatedBy": "Discord",
+	"CreatedByURL": "https://discordapp.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"EngineVersion": "4.25.0",
+	"EnabledByDefault": false,
+	"Modules": [
+		{
+			"Name": "DiscordGameSDK",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
